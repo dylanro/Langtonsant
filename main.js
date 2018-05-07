@@ -26,9 +26,9 @@ function setup() {
     }
   }
   sim = new Simulation();
-  for(let i = 0; i < 13000; i++){
-    sim.run();
-  }
+  //for(let i = 0; i < 13000; i++){
+    //sim.run();
+  //}
 }
 
 function draw() {
@@ -36,5 +36,5 @@ function draw() {
   for (let i = 0; i < cells.length; i++) {
     cells[i].display();
   }
-  //sim.run();
+  sim.run();
 }

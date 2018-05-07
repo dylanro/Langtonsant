@@ -15,7 +15,8 @@ class Cell {
     } else {
       noFill();
     }
-    stroke('#0C4767');
+    //stroke('#0C4767');
+    noStroke();
     rect(this.i, this.j, this.w, this.h);
   }
 }
