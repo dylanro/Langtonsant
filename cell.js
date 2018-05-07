@@ -11,7 +11,7 @@ class Cell {
 
   display() {
     if (this.active == 1) {
-      fill('#0C4767');
+      fill('#45E');
     } else {
       noFill();
     }
